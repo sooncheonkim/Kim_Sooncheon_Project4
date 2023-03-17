@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Grid Framework Scafold</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">Welcome to Orbitz</h1>
+    <!-- Header -->
+   <header class="grid-con" id="main-header">
+       <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-4">Logo</div>
+       <nav class="box col-start-4 col-end-5 m-col-start-5 m-col-end-9">Nav</nav>
+       <div class="box m-col-start-10 m-col-end-13" id="main-sns">SNS</div>
+   </header>
+   
+    <!-- Hero -->
+   <section class="grid-con" id="hero-con">
+       <h2 class="hidden">Hero image</h2>
+       <div class="box col-span-full">Hero Image</div>
+   </section>
+
+   <!--Sign-Up/Shop -->
+   <section class="grid-con" id="sign-up">
+        <h2 class="hidden">Sign-up</h2>
+        <div class="box col-span-full" id="sign-up-text">Text</div>
+        <button class="box col-start-2 col-end-4" id="sign-up-button">SIGN UP</button>
+        <button class="box m-col-start-10 m-col-end-12" id="shop-button">SHOP</button>
+   </section>
+
+   <!-- Video -->
+   <section class="grid-con" id="video-con">
+        <h2 class="hidden">Video Promotion</h2>
+        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-4 xl-col-end-10" id="text-con">Video text</div>
+        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-4 xl-col-end-10" id="video-promo">Video</div>
+   </section>
+
+   <!-- Products -->
+   <section class="grid-con">
+    <h2 class="hidden">Orbitz Best Beverages</h2>
+       <div class="box col-span-full" id="products-con1">Product 1 image
+         <div class="grid-con">
+            <div class="box col-span-full m-col-start-8 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-8 xl-col-end-11" id="product-heading-1">Title</div>
+            <div class="box col-span-full m-col-start-8 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-8 xl-col-end-12 " id="product-text-1">Text</div>
+            <button class="box col-start-2 col-end-4 m-col-start-8 m-col-end-10 l-col-start-7 l-col-end-9 xl-col-start-8 xl-col-end-10 " id="product-button-1">Button</button>
+         </div>
+       </div>
+
+       <div class="box col-span-full" id="products-con2">Product 2 image
+        <div class="grid-con">
+           <div class="box col-span-full m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-4" id="product-heading-2">Title</div>
+           <div class="box box col-span-full m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6 " id="product-text-2">Text</div>
+           <button class="box col-start-2 col-end-4 m-col-start-2 m-col-end-4 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-3 " id="product-button-2">Button</button>
+        </div>
+      </div>
+        
+      <div class="box col-span-full" id="products-con3">Product 3 image
+        <div class="grid-con">
+            <div class="box col-span-full m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-4" id="product-heading-3">Title</div>
+            <div class="box box col-span-full m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6 " id="product-text-3">Text</div>
+            <button class="box col-start-2 col-end-4 m-col-start-2 m-col-end-4 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-3 " id="product-button-3">Button</button>
+        </div>
+      </div>
+
+      <div class="box col-span-full" id="products-con4">Product 4 image
+        <div class="grid-con">
+           <div class="box col-span-full m-col-start-8 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-8 xl-col-end-11" id="product-heading-4">Title</div>
+           <div class="box col-span-full m-col-start-8 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-8 xl-col-end-12 " id="product-text-4">Text</div>
+           <button class="box col-start-2 col-end-4 m-col-start-8 m-col-end-10 l-col-start-7 l-col-end-9 xl-col-start-8 xl-col-end-10 " id="product-button-4">Button</button>
+        </div>
+      </div>   
+   </section>
+
+    <!-- Testimonials -->
+    <section class="grid-con" id="testional-con1">
+        <div class="box col-span-full m-col-start-2 m-col-end-7"><h2>Testimonial Title 1</h2></div>
+        <div class="box col-start-2 col-end-4 m-col-start-8 m-col-end-13 l-col-start-7 l-col-end-12 xl-col-start-8 xl-col-end-12" id="testimonial-image1">Testimonial Image 1</div>
+        <div class="box col-start-2 col-end-4 m-col-start-2 m-col-end-7"><p>
+            Text</p></div>
+        <button class="box col-start-2 col-end-4 m-col-start-2 m-col-end-5 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-4" id="testimonial-button-1">Buy Now</button>
+    </section>
+    <section class="grid-con" id="testional-con2">
+        <div class="box col-start-2 col-end-4 m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-6" id="testimonial-image2">Testimonial Image 2</div>
+        <div class="box col-span-full m-col-start-8 m-col-end-12 l-col-start-8 l-col-end-12 xl-col-start-7 xl-col-end-12" id="testimonial-title2"><h2>Testimonial Title 2</h2></div>
+        <div class="box col-start-2 col-end-4 m-col-start-8 m-col-end-13 l-col-start-8 l-col-end-13 xl-col-start-7 xl-col-end-12"><p>Text</p></div>
+        <button class="box col-start-2 col-end-4 m-col-start-8 m-col-end-11 xl-col-start-7 xl-col-end-9" id="testimonial-button-2">Buy Now</button>
+    </section>
+
+    <!-- SNS -->
+    <section class="grid-con" id="SNS-con">
+        <div class="box col-span-full"><h3>SNS Title</h3></div>
+        <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-10 xl-col-start-5 xl-col-end-9" id="sns-icons">SNS Icons</div>
+   </section>
+
+   <!-- Info and Links -->
+    <section class="grid-con" id="about-buynow-contact">
+        <h2 class="hidden">The Link of About Us, Buy Now, Contact Us</h2>
+        <div class="box col-start-1 col-end-5 m-col-start-2 m-col-end-5 l-col-start-1 l-col-end-5 xl-col-start-3 xl-col-end-6" id="about-image"><p>Image 1</p>
+            <button class="box col-start-2 col-end-4 m-col-start-3 m-col-end-5 l-col-start-2 l-col-end-4 xl-col-start-3 xl-col-end-5" id="about-button">Button</button>
+        </div>
+        <div class="box col-start-1 col-end-5 m-col-start-5 m-col-end-8 l-col-start-5 l-col-end-9 xl-col-start-6 xl-col-end-9" id="buy-image"><p>Image 2</p>
+            <button class="box col-start-2 col-end-4 m-col-start-3 m-col-end-5 l-col-start-2 l-col-end-4 xl-col-start-3 xl-col-end-5" id="buy-button">Button</button>
+        </div>
+        <div class="box col-start-1 col-end-5 m-col-start-8 m-col-end-11 l-col-start-9 l-col-end-13 xl-col-start-9 xl-col-end-12" id="contact-image"><p>Image 3</p>
+            <button class="box col-start-2 col-end-4 m-col-start-3 m-col-end-5 l-col-start-2 l-col-end-4 xl-col-start-3 xl-col-end-5" id="contacy-button">Button</button>
+        </div>
+    </section>
+
+    <section class="grid-con" id="sign-up-section">
+        <div class="box col-span-full">
+            <div class="grid-con">
+                <div class="m-col-start-2 m-col-end-4"><h2>Sign up Title</h2></div>
+                <button class="box m-col-start-10 m-col-end-12 l-col-start-10 l-col-end-13 xl-col-start-10 xl-col-end-12 ">Button</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <section class="grid-con" id="sitemap-con">
+        <h2 class="hidden">Site maps of Orbitz </h2>
+            <div class="box col-start-1 col-end-2 m-col-start-1 m-col-end-4">Site map1</div>
+            <div class="box col-start-2 col-end-3 m-col-start-4 m-col-end-7">Site map2</div>
+            <div class="box col-start-3 col-end-4 m-col-start-7 m-col-end-10">Site map3</div>
+            <div class="box col-start-4 col-end-5 m-col-start-10 m-col-end-13">Site map4</div>
+    </section>
+
+    <section class="grid-con" id="policy-con">
+       <h2 class="hidden">Private policy of Orbitz </h2>
+            <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5 xl-col-start-2 xl-col-end-6">Policy</div>
+            <div class="box col-start-3 col-end-4 m-col-start-5 m-col-end-8 l-col-start-5 l-col-end-8 xl-col-start-6 xl-col-end-8">Copyright</div>
+            <div class="box col-start-4 col-end-5 m-col-start-9 m-col-end-11 l-col-start-9 l-col-end-11 xl-col-start-9 xl-col-end-11">SNS</div>
+            <button class="box col-start-3 col-end-4 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13" id="top-arrow">Top-scroll</button>
+    </section>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
