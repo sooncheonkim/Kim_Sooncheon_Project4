@@ -1,0 +1,38 @@
+@media screen and (max-width: 1023px) {
+    #main-sns {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    #sign-up-button, #sign-up-text{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #shop-button {
+        display: none;
+    }
+}
+
+#product-heading-1, #product-heading-2, #product-heading-3, #product-heading-4, #product-text-1, #product-text-2, #product-text-3, #product-text-4, #product-button-1, #product-button-2, #product-button-3, #product-button-4 {
+    background-color: white;
+   
+}
+
+#about-button {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 375px){
+    #testimonial-title2 {
+        order: -1;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #sign-up-section {
+        display: none;
+    }
+}
