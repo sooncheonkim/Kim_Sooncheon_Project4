@@ -1,1 +1,4 @@
-# Kim_Sooncheon_Project4
+# Responsive Protptype for FIP
+
+This is a HW4 of Web Development
+
